@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load(r"C:\Users\mirya\OneDrive\Desktop\mini pro\heart-disease-project\92heart-disease.pkl")
+model = joblib.load("92heart-disease.pkl")
 
 @app.route('/')
 def index():
